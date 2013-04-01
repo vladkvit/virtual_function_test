@@ -19,7 +19,7 @@ public:
 class Circle : Shape
 {
 public:
-	virtual void printme()
+	void printme() override
 	{
 		printf( "v Circle\n" );
 	}
